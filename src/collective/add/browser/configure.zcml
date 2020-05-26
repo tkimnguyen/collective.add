@@ -18,4 +18,34 @@
       directory="static"
       />
 
+  <browser:page
+     name="add-folder"
+     for="*"
+     class=".views.AddFolderView"
+     template="templates/add-folder.pt"
+     permission="cmf.AddPortalContent"
+     />
+
+  <browser:page
+     name="add-folder-action"
+     for="*"
+     class=".views.AddFolderActionView"
+     permission="cmf.AddPortalContent"
+     />
+
+  <browser:page
+     name="add-page"
+     for="*"
+     class=".views.AddPageView"
+     template="templates/add-page.pt"
+     permission="cmf.AddPortalContent"
+     />
+
+  <browser:page
+     name="add-page-action"
+     for="*"
+     class=".views.AddPageActionView"
+     permission="cmf.AddPortalContent"
+     />
+
 </configure>

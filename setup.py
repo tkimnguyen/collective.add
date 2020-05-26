@@ -15,7 +15,7 @@ long_description = '\n\n'.join([
 setup(
     name='collective.add',
     version='1.0a1',
-    description="Add button that lets you add multiple items quickly",
+    description="Add buttons that let you add multiple items quickly",
     long_description=long_description,
     # Get more from https://pypi.org/classifiers/
     classifiers=[

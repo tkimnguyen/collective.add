@@ -1,0 +1,12 @@
+<h1>Add a folder here</h1>
+<div id="content">
+  <div class="portalMessage error" style="display:none" />
+  <form id="additemform" method="post"
+     tal:define="here_url here/absolute_url"
+     tal:attributes="action python: here_url + '/@@add-folder-action'">
+    <label for="itemtitle">Enter its title:</label>
+    <input name="itemtitle" type="text" size="50" required="1" autofocus="1">
+    <br><br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
